@@ -1,0 +1,97 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'> 
+    <title>CSS Practice</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>CSS Notes. Tryin' to learn!</h1>
+    </div> 
+
+      <div class="bigbox">
+        <h2>What is CSS?</h2>
+          <div class="box">
+           <p>I decided that if I was going to try and learn CSS than I should go ahead and start at the ground level. Today I found a great site called <a href="http://www.w3schools.com">w3schools.com</a>. This is what I learned about the meaning of CSS and why it was created.</p>
+            <ul>
+             <li>CSS stands for Cascading Style Sheets.</li>
+             <li>Styles define how to display HTML elements.</li>
+             <li>The seperation of HTML from CSS makes it easier to maintain sites and share style sheets across numerous pages.</li>
+             <li>Styles were added to HTML 4.0 to solve a problem.</li>
+             <li>External Style Sheets can save a lot of work.</li>
+             <li>External Style Sheets are stored in CSS files.</li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="bigbox2">
+        <h2>WTF is a CSS Selector?</h2>
+          <div class="box">
+           <p>Within CSS there are items called selectors. To be honest, when first learning CSS this kind of blew me away. I did not think there would be any real way to distinguish between the three and I still do not completely understand them! Below are the main CSS selectors.</p>
+           <h3>The element Selector</h3>
+           <p>The element selector allows you to select and style elements within your HTML by adding styles to your CSS.
+           <h3>The id Selector</h3>
+           <p>The id selector should be unique within a page, so you want to make sure you use this tag when you want to find a single, unique element. To find an element with a specific id, write #character, followed by the id of the element.</p>
+           <h3> The class Selector</h3>
+           <p>The class selector finds elements with the specific class. To find elements with a specific class, write .character followed by the class of the element.</p>
+           <h3>Grouping them!</h3>
+           <p>You can, and should group them when needed to save minimize code. When grouping, seperate each selector with a comma.
+          </div>
+      </div>
+
+      <div class="bigbox3">
+        <h2>Oooohhh... Font Weights</h2>
+          <div class="box">
+            <p>I also learned about the font-weight; tag and how it can be used. While digging through other's code I would always see these tags, but never really understood exactly what it was and how it affected the font. I guess I may have over thought it a little bit. There are a few ways to use the font-weight; tag. Below are examples of the font-weight; tag.</p>
+            <ul>
+              <li><div class="fwnormal">font-weight; normal</div></li>
+              <li><div class="fwbold">font-weight; bold</div></li>
+              <li><div class="fwbolder">font-weight; bolder</div></li>
+              <li><div class="fwlighter">font-weight; lighter</div>
+            </ul>
+              <p>With the font-weight; tag you can also specify how thin or thick you want your font to be using a numeric value. For reference, it is good to note that 400 is the same as normal, while 700 is the same as bold.</p>
+            <ul>
+              <li><div class="fw100">font-weight; 100</div></li>
+              <li><div class="fw200">font-weight; 200</div></li>
+              <li><div class="fw300">font-weight; 300</div></li>
+              <li><div class="fw400">font-weight; 400</div></li>
+              <li><div class="fw500">font-weight; 500</div></li>
+              <li><div class="fw600">font-weight; 600</div></li>
+              <li><div class="fw700">font-weight; 700</div></li>
+              <li><div class="fw800">font-weight; 800</div></li>
+              <li><div class="fw900">font weight; 900</div></li>
+            </ul>
+           </div>
+      </div>
+
+      <div class="bigbox4">
+        <h2>Inline and Block Elements</h2>
+          <div class="box">
+          <p> I have a few good friends who are extremely helpful when it comes to CSS and design. I regularly check my friend Adam Kaplan's <a href="http://www.adamkaplan.me">website</a> to view some of his projects for help in further understanding CSS and HTML. Below I have tried to replicate one of his earlier projects titled <a href="http://www.adamkaplan.me/projects/inline-and-block-elements.html">Inline and Block Elements</a>. 
+            <h3>display:inline;</h3>
+              <p>Inline elements respect both left and right margins as well as padding, but not top and bottom. Inlines cannot have a width and height set, but allow other elements to sit to the left and right of them. Below is an example of three inline elements.
+              <div class="ex1">display: inline;</div>
+              <div class="ex1">display: inline;</div>
+              <div class="ex1">display: inline;</div>
+            <h3>display:block;</h3>
+              <p>Block elements respect all margins and force a line break after the actual block element. Below is an example of three block elements.
+              <div class="ex2">display:block;</div>
+              <div class="ex2">display:block;</div>
+              <div class="ex2">display:block;</div>
+            <h3>display: inline-block;</h3>
+             <p>Inline-Block elements respect all margins and padding as well as height and width parameters. These elements also allow other elements to sit to their left and right. Below is an example of three inline-block elements.
+              <div class="ex3">display: inline-block;</div>
+              <div class="ex3">display: inline-block;</div>
+              <div class="ex3">display: inline-block;</div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <a href="https://twitter.com/noahr_" class="twitter-follow-button" data-show-count="false">Follow @noahr_</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+
+  </body>
+</html>
